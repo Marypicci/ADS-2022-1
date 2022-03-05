@@ -1,0 +1,12 @@
+var
+Dinheiro_que_possui,dólar,alemão,libra:real
+início
+Escreva("Qual é o valor da quantia de dinheiro em reais que você possui? ")
+Leia(dinheiro_que_possui)
+Dólar <- dinheiro_que_possui*1.80
+Alemão <- dinheiro_que_possui*2
+Libra <- dinheiro_que_possui*3.57
+Escreval("O total em dólares  que você possui é de: ",dólar)
+Escreval("O total em marco alemão que você possui é de: ",alemão)
+Escreval("O total em  libra esterlina que você possui é de: ",libra)
+Fimalgoritmo 
