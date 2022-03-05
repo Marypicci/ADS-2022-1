@@ -1,0 +1,12 @@
+var
+salário_fixo, número_de_vendas, total_da_comissão,salário_total:real
+Início
+Escreva("Qual é o valor do seu salário mensal sem as comissões? "
+Leia(salário_fixo)
+Escreva("Quantas vendas você fez esse mês? ")
+Leia(número_de_vendas)
+Total_da_comissão <- 0,04*número_de_vendas
+Salário_total <- Total_da_comissão+salário_fixo
+Escrever("O valor que você vai receber pelas comissões é de: ",total_da_comissão)
+Escreva("O valor total que você vai receber é de: ",salário_total)
+Fimalgoritmo
